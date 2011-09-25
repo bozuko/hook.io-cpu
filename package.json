@@ -1,0 +1,20 @@
+{
+    "name": "hook.io-cpu",
+    "description": "Cpu Monitor for hook.io",
+    "version": "0.1.0",
+    "author": "andrewjstone",
+    "repository": {
+        "type": "git", 
+        "url": "http://github.com/bozuko/hook.io-cpu.git"
+    },
+    "bin": {
+      "hookio-cpu": "bin/cpu"
+    },
+    "main": "./lib/cpu",
+    "dependencies": {
+       "hook.io": "0.7.x"
+     }, 
+    "engine": [
+        "node 0.4.x" 
+    ]
+}

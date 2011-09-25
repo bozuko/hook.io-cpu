@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var Cpu = require('../lib/cpu');
+
+var cpu = new Cpu({
+  name: "cpu-hook",
+  debug: true
+});
+
+cpu.start();
