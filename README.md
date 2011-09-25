@@ -1,12 +1,14 @@
 # Hook.io Cpu - Monitor your load avg with hook.io
 
 ## Install
-git clone git@github.com:bozuko/cpu.git
-cd cpu
-npm install
+    
+    git clone git@github.com:bozuko/cpu.git
+    cd cpu
+    npm install
 
 ## Run
-hookio-cpu
+    
+    hookio-cpu
 
 ### Hook config.json settings
 
